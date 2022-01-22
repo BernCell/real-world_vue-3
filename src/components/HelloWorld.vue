@@ -106,8 +106,13 @@
 export default {
   name: "HelloWorld",
   props: {
+<<<<<<< HEAD
     msg: String,
   },
+=======
+    msg: String
+  }
+>>>>>>> 9703dad8748c2692a7ccccd30995cb5247c4fb4b
 };
 </script>
 

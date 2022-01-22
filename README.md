@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # real-world_vue-3
+=======
+# real-world-vue
+>>>>>>> 9703dad8748c2692a7ccccd30995cb5247c4fb4b
 
 ## Project setup
 ```

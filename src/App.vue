@@ -1,9 +1,19 @@
 <template>
+<<<<<<< HEAD
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view />
+=======
+  <div id="app">
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
+  </div>
+>>>>>>> 9703dad8748c2692a7ccccd30995cb5247c4fb4b
 </template>
 
 <style>
