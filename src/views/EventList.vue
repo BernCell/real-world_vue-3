@@ -1,24 +1,23 @@
-<template >
-  <h1>Events For Good</h1>
+<template>
   <div class="events">
-    <EventCard v-for='event in events' :key='event.id' :event='event' @click="about" />
+    <h1>Events For Good</h1>
+    <EventCard v-for="event in events" :key="event.id" :event="event" />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import EventCard from "@/components/EventCard.vue";
+import EventCard from '@/components/EventCard.vue'
 
 export default {
-  name: "Home",
+  name: 'EventList',
   components: {
-    EventCard, //register it as a child component
-    
+    EventCard
   },
-   data() {
-     return {
-       events : [
-          {
+  data() {
+    return {
+      events: [
+        {
           id: 5928101,
           category: 'animal welfare',
           title: 'Cat Adoption Day',
@@ -51,9 +50,9 @@ export default {
           petsAllowed: false,
           organizer: 'Carey Wales'
         }
-       ]
-     }
-   }
+      ]
+    }
+  }
 }
 </script>
 
